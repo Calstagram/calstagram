@@ -100,8 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "calstagram:build:production",
+            "firebaseProject": "calstagram-e0db0",
+            "firebaseHostingSite": "calstagram-e0db0"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2dd68ef8-6166-4578-9ec9-f4b30d6b4405"
   }
 }

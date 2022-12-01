@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "calstagram-e0db0": {
+      "hosting": {
+        "calstagram": [
+          "calstagram-e0db0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "calstagram-e0db0"
+  }
+}
